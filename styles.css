@@ -1,0 +1,39 @@
+/* *{
+      background-image: url(nature-peaceful.jpg);
+        background-repeat: no-repeat;
+        background-attachment: cover;
+     
+}  */
+
+#form {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    background-color: mediumaquamarine;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    height: fit-content;
+    position: absolute;
+    left: 35%;
+    bottom: 30%;
+    padding-top: 80px;
+
+
+}
+
+h1 {
+    top: 1%;
+    right: 45%;
+    position: absolute;
+    color: white;
+    border: 1px solid;
+}
+
+.form_label {
+    padding: 20px;
+    position: relative;
+}
+
+.date {
+    display: flex;
+}
