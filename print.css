@@ -1,0 +1,61 @@
+body {
+    padding: 0;
+
+}
+
+
+#review {
+    flex: grid;
+    justify-content: center;
+    background-color: white;
+    gap: 10px;
+    height: fit-content;
+    width: fit-content;
+    left: 20%;
+    top: 5%;
+
+}
+
+#review p {
+    color: black;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.review_p {
+    padding-left: 230px;
+}
+
+.profile {
+    padding-left: 250px;
+    padding-bottom: 200px;
+
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+    position: absolute;
+    right: 0;
+    width: 500px;
+}
+
+.resume_icons {
+    width: 20px;
+    height: 20px;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+.icons_display {
+    display: flex;
+}
+
+.date {
+    display: flex;
+}
